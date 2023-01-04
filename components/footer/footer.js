@@ -41,7 +41,7 @@ const Footer = () => {
                     justifyContent="center"
                 >
                     <Typography className={classes.copyLight}>
-                        copy;Raj
+                        Raj
                     </Typography>
                 </Grid>
             </Container>
