@@ -70,7 +70,7 @@ const SinglePageEvent = ({ data }) => {
                     required
                     ref={emailRef}
                 />
-                <Button variant="contained" type="submit" size='large'>Submit</Button>
+                <Button type="submit" size='large'>Submit</Button>
             </form>
             <p>{message}</p>
         </>
