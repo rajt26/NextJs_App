@@ -9,6 +9,7 @@ const useStyles = makeStyles((theme) => ({
         overflow: "hidden",
         marginTop: "6em",
         padding: "2em 0 ",
+        marginTop: "10%"
     },
     link: {
         fontSize: "1.25em",
@@ -41,7 +42,7 @@ const Footer = () => {
                     justifyContent="center"
                 >
                     <Typography className={classes.copyLight}>
-                        Raj
+                        All rights reserved by Raj Thakkar.
                     </Typography>
                 </Grid>
             </Container>

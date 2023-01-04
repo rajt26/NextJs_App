@@ -19,7 +19,7 @@ const EventsCategories = ({ data }) => {
                                 <h1>
                                     {`Events in ${event.city}`}
                                 </h1>
-                                <Card sx={{ maxWidth: 345 }} key={event.id}>
+                                <Card sx={{ maxWidth: 400, maxHeight: 350 }} key={event.id}>
                                     <CardMedia
                                         component="img"
                                         alt="event_images"

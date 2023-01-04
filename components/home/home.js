@@ -14,7 +14,7 @@ const HomePage = ({ data }) => {
                 data.map((category) => {
                     return (
                         <Grid tem xs={12} sm={6} md={4} key={data.id}>
-                            <Card sx={{ maxWidth: 345, maxHeight: 345 }}>
+                            <Card sx={{ maxWidth: 400, maxHeight: 350 }}>
                                 <CardMedia
                                     component="img"
                                     alt="event_images"
