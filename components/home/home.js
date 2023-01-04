@@ -9,11 +9,11 @@ import { Grid } from '@material-ui/core/'
 
 const HomePage = ({ data }) => {
     return (
-        <Grid container spacing={12}>
+        <Grid container justifyContent='center' spacing={5}>
             {
                 data.map((category) => {
                     return (
-                        <Grid tem xs={12} sm={6} md={4} key={data.id}>
+                        <Grid item xs={12} sm={6} md={4} lg={3} key={data.id}>
                             <Card sx={{ maxWidth: 400, maxHeight: 350 }}>
                                 <CardMedia
                                     component="img"

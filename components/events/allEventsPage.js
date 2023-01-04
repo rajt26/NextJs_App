@@ -11,11 +11,11 @@ import { Grid } from '@material-ui/core/'
 const AllEventsPage = ({ data }) => {
     return (
         <>
-            <Grid container spacing={12}>
+            <Grid container justifyContent='center' direction='row' spacing={2}>
                 {
                     data.map((category) => {
                         return (
-                            <Grid tem xs={12} sm={6} md={4} key={category.id}>
+                            <Grid item xs={12} sm={6} md={4} lg={3} key={category.id}>
                                 <Card sx={{ maxWidth: 400, maxHeight: 350 }}>
                                     <CardMedia
                                         component="img"
